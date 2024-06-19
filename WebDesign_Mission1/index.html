@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mission1</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#p0").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#p1").mouseenter(function(){
+    alert("Mouse entered!");
+  });
+});
+</script>
+</head>
+<body>
+
+<p>Event Click and effect hide</p>
+<h1 id="p0">Click here then hide here</h1>
+
+<p>Event mouseenter and effect alert</p>
+<h1 id="p1">Mouse enter here then alert</h1>
+
+</body>
+</html>
